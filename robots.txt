@@ -1,0 +1,13 @@
+﻿User-agent: *
+Allow: /index.php
+Allow: /colleges.php
+Allow: /books.php
+Allow: /find.php
+Allow: /submit.php
+Disallow: /query/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /sitemap.xml
+Allow: /tracking.php
+Sitemap: https://www.capitolbooks.org/sitemap.xml

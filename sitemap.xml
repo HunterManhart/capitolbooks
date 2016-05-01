@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"   
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>   
+    <loc>https://www.capitolbooks.org/index.php</loc>
+    <priority>0.9</priority>
+    <lastmod>2015-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>http://capitolbooks.org/img/logo.svg</image:loc>
+      <image:caption>Capitol Books Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://capitolbooks.org/img/buy.jpg</image:loc>
+      <image:caption>Books Background</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.capitolbooks.org/colleges.php</loc>
+    <priority>0.2</priority>
+    <lastmod>2015-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>http://capitolbooks.org/img/logo.svg</image:loc>
+      <image:caption>Capitol Books Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://capitolbooks.org/img/college.jpg</image:loc>
+      <image:caption>Classroom Background</image:caption>
+    </image:image>    
+  </url>
+  <url>
+    <loc>https://www.capitolbooks.org/books.php</loc>
+    <priority>0.7</priority>
+    <lastmod>2015-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://capitolbooks.org/img/logo.svg</image:loc>
+      <image:caption>Capitol Books Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://capitolbooks.org/img/blue.jpg</image:loc>
+      <image:caption>Minimal Blue Background</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.capitolbooks.org/find.php</loc>
+    <priority>0.7</priority>
+    <lastmod>2015-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://capitolbooks.org/img/logo.svg</image:loc>
+      <image:caption>Capitol Books Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://capitolbooks.org/img/yellow.jpg</image:loc>
+      <image:caption>Minimal Yellow Background</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.capitolbooks.org/submit.php</loc>
+    <priority>0.4</priority>
+    <lastmod>2015-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://capitolbooks.org/img/logo.svg</image:loc>
+      <image:caption>Capitol Books Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://capitolbooks.org/img/books.jpg</image:loc>
+      <image:caption>Books Background</image:caption>
+    </image:image>
+  </url>
+</urlset>

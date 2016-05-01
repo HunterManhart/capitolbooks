@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - capitov3_capitol@box1289.bluehost.com" uuid="d3ca199c-72f8-4519-bedb-a4e7aa8fa098">
+      <secret-storage>memory</secret-storage>
+      <user-name>capitov3_user</user-name>
+      <schema-pattern>capitov3_capitol.*</schema-pattern>
+      <default-schemas>capitov3_capitol.*</default-schemas>
+    </data-source>
+  </component>
+</project>

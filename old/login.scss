@@ -1,0 +1,189 @@
+﻿body {
+    background-size: cover;
+    font-family: "Raleway";
+}
+
+.main {
+    padding-top: 4em;
+    height: calc(100% - 4em) !important;
+    overflow-y:auto ;
+}
+
+#errormessage, #errorseller {
+    margin-top: 1em;
+    display: none;
+    font-size: .5em;
+}
+
+.block {
+    
+    display: inline-block;
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #0094ff;
+    margin: 0 auto;
+    color: black;
+    clear: both;   
+    
+    >div{
+        font-size: 22px;
+    }     
+}
+
+.block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;    
+    clear: both;
+}
+
+.block input:not([type="checkbox"]) {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: "Raleway";
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.user{
+
+    >div{
+        float: left;
+        clear: both;
+    }
+}
+
+.listings {
+    padding-top: .8em;
+    clear: both;
+    text-align: left;
+
+    .user {
+    }
+
+    .listing {
+        display: inline-block;
+        padding: 0;        
+        padding-bottom: 1em;
+
+        > div {
+            float: left;
+            clear: both;
+            padding-right: .5em;
+
+            b{
+                padding-left: .6em;
+            }
+        }
+        
+        > .radiodiv{            
+            font-size: .8em;
+        }        
+
+        label {
+            width: 200px;
+            border-radius: 3px;
+            border: 1px solid #D1D3D4;            
+        }
+        /* hide input */
+        input.radio:empty {
+            margin-left: -999px;
+        }
+        /* style label */
+        input.radio:empty ~ label {
+            position: relative;
+            float: left;
+            line-height: 1.5em;
+            text-indent: 1.25em;
+            margin-top: .2em;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        input.radio:empty ~ label:before {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            content: '';
+            width: 1.5em;
+            background: #D1D3D4;
+            border-radius: 3px 0 0 3px;
+        }
+        /* toggle hover */
+        input.radio:hover:not(:checked) ~ label:before {
+            content: '\2714';
+            text-indent: .2em;
+            color: #C2C2C2;
+        }
+
+        input.radio:hover:not(:checked) ~ label {
+            color: #888;
+        }
+        /* toggle on */
+        input.radio:checked ~ label:before {
+            content: '\2714';
+            text-indent: .2em;
+            color: #9CE2AE;
+            background-color: #4DCB6D;
+        }
+    }
+}
+
+.login-block input#username {
+    background: #fff url('../img/user.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('../img/user.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('../img/lock.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('../img/lock.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.block input:active, .login-block input:focus {
+    border: 1px solid #4cff00;
+}
+
+.block button {
+    width: 100%;
+    height: 40px;
+    background: #0094ff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Raleway";
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+        background: #00ff90;
+    }
+}
